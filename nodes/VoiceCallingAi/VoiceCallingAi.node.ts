@@ -12,8 +12,8 @@ export class VoiceCallingAi implements INodeType {
 		defaults: {
 			name: 'VoiceCallingAI',
 		},
-		inputs: ['main'],
-		outputs: ['main'],
+		inputs: ['main'] as any,
+		outputs: ['main'] as any,
 		credentials: [
 			{
 				name: 'voiceCallingAiApi',
