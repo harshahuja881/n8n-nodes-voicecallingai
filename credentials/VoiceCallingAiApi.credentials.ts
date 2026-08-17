@@ -10,6 +10,8 @@ export class VoiceCallingAiApi implements ICredentialType {
 
 	displayName = 'VoiceCallingAI API';
 
+	icon = 'file:voiceCallingAi.svg' as const;
+
 	documentationUrl = 'https://voicecallingai.com/developers';
 
 	properties: INodeProperties[] = [
