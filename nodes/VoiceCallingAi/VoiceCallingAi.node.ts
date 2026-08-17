@@ -9,6 +9,7 @@ export class VoiceCallingAi implements INodeType {
 		version: 1,
 		subtitle: '={{$parameter["operation"]}}',
 		description: 'Place human-sounding AI voice calls with VoiceCallingAI',
+		usableAsTool: true,
 		defaults: {
 			name: 'VoiceCallingAI',
 		},
