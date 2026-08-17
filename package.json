@@ -1,6 +1,6 @@
 {
   "name": "n8n-nodes-voicecallingai",
- "version": "0.1.1",
+"version": "0.1.2",
   "description": "n8n community node for VoiceCallingAI — place human-sounding AI voice calls",
   "keywords": ["n8n-community-node-package","voicecallingai","voice","calling","ai"],
   "license": "MIT",
